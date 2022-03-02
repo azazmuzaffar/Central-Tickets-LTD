@@ -1,0 +1,414 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>> Central Tickets LTD <<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<< */
+
+body {
+  background: #f1f5f7 0% 0% no-repeat padding-box;
+}
+
+.navbar {
+  width: 100%;
+  height: 88px;
+  background: #353535 0% 0% no-repeat padding-box;
+  a {
+    margin: 0 auto;
+  }
+}
+
+.container {
+  &.-booking-confirmation {
+    max-width: 1127px;
+    margin: 41px auto 51px auto;
+    h1 {
+      font: normal normal bold 35px/40px Arial;
+      margin: 0;
+      text-align: left;
+      letter-spacing: 0px;
+    }
+    /* >>>> Booking Invoice and Sign In <<<< */
+    .-booking-and-signin {
+      padding: 0px 0px 0px 12px;
+      margin-top: 49px;
+      .-left {
+        max-width: 651px;
+        margin-right: 18px;
+      }
+      .-right {
+        max-width: 422px;
+      }
+      .-booking-invoice {
+        .-booking {
+          margin-bottom: 30px;
+          background: white;
+          border-radius: 10px;
+          &:last-of-type {
+            margin-bottom: 0px;
+          }
+        }
+        /* >>>> Invoice Detail <<<< */
+        .-invoice-detail {
+          padding: 0;
+          .-header {
+            display: flex;
+            padding: 26px;
+            .-text {
+              position: relative;
+              h4,
+              p {
+                margin: 0;
+              }
+              h4 {
+                font: normal normal bold 30px/34px Arial;
+                margin-bottom: 6px;
+                letter-spacing: 0px;
+              }
+              p {
+                font: normal normal bold 20px/26px Arial;
+                letter-spacing: 0px;
+                &:first-of-type {
+                  margin-bottom: 38px;
+                }
+                span {
+                  color: #666666;
+                }
+                &.-reference {
+                  font: normal normal normal 20px/23px Arial;
+                  color: #33333d;
+                }
+              }
+            }
+            .-image {
+              margin-left: auto;
+              margin-right: 0;
+            }
+          }
+          ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li {
+              display: flex;
+              padding: 17.5px 26px;
+              border-top: 0.5px solid #d91717;
+              p {
+                font: normal normal bold 20px/23px Arial;
+                margin: 0;
+                &:last-of-type {
+                  font-weight: normal;
+                  margin-left: auto;
+                  margin-right: 0;
+                }
+              }
+            }
+          }
+        }
+        /* >>>> Invoice Total <<<< */
+        .-invoice-payment {
+          display: flex;
+          align-items: center;
+          padding: 26px;
+          h2,
+          p {
+            letter-spacing: 0px;
+            margin: 0;
+          }
+          h2 {
+            font: normal normal bold 30px/34px Arial;
+          }
+          p {
+            font: normal normal normal 30px/34px Arial;
+            margin-left: auto;
+            margin-right: 0;
+          }
+        }
+        /* >>>> Invoice Actions <<<< */
+        .-invoice-actions {
+          display: flex;
+          background: transparent;
+          padding: 0;
+          a {
+            border-radius: 10px;
+            margin: 0;
+            &:first-of-type {
+              padding: 24px 12px;
+              margin-right: 30px;
+              background: white;
+            }
+            &:last-of-type {
+              padding: 30px 12px;
+              background: #d91717;
+              color: white;
+            }
+            font: normal normal bold 20px/23px Arial;
+            letter-spacing: 0px;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            color: #000000;
+            width: 100%;
+            svg {
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+      /* >>>> Sign In/Up <<<< */
+      .-signin-signup {
+        padding: 0px 12px;
+        .-account {
+          margin-bottom: 30px;
+          background: white;
+          border-radius: 10px;
+          &:last-of-type {
+            margin-bottom: 0px;
+          }
+        }
+        /* >>>> Sign In <<<< */
+        .-signin {
+          padding: 0;
+          .-header {
+            text-align: center;
+            background: #d91717;
+            font: normal normal normal 20px/23px Arial;
+            padding: 20px 0px;
+            border-radius: 10px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            color: white;
+            letter-spacing: 0px;
+            svg {
+              margin-right: 18px;
+            }
+          }
+          form {
+            padding: 26px 26px 41px 26px;
+            input {
+              margin-bottom: 20px;
+              width: 100%;
+              outline: none;
+              border: 1px solid #707070;
+              font: normal normal normal 20px/23px Arial;
+              letter-spacing: 0px;
+              border-radius: 10px;
+              padding: 17px;
+              display: block;
+              &:last-of-type {
+                margin-bottom: 17px;
+              }
+            }
+            input[type="submit"] {
+              font: normal normal bold 20px/23px Arial;
+              background: transparent;
+              border-color: #d91717;
+              color: #d91717;
+            }
+            p {
+              font: normal normal normal 13px/15px Arial;
+              margin: 0;
+              letter-spacing: 0px;
+              a {
+                color: #d91717;
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+        /* >>>> Sign Up <<<< */
+        .-signup {
+          padding: 17px 26px 31px 26px;
+          p {
+            font: normal normal normal 20px/23px Arial;
+            letter-spacing: 0px;
+            padding: 0px 6px;
+            margin-bottom: 20px;
+          }
+          a {
+            margin-bottom: 15px;
+            width: 100%;
+            outline: none;
+            border: 1px solid #d91717;
+            color: #d91717;
+            text-align: center;
+            font: normal normal bold 20px/23px Arial;
+            text-decoration: none;
+            letter-spacing: 0px;
+            border-radius: 10px;
+            padding: 17px;
+            display: block;
+          }
+          ul {
+            margin: 20px 0px 0px 0px;
+            padding: 0;
+            list-style: none;
+            li {
+              font: normal normal normal 20px/30px Arial;
+              letter-spacing: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .container {
+    &.-booking-confirmation {
+      .row {
+        margin: 0 !important;
+        padding: 0 !important;
+        .col-xl-7,
+        .col-xl-5 {
+          max-width: 100%;
+          margin: 0;
+          padding: 0;
+        }
+      }
+      /* >>>> Booking Invoice and Sign In <<<< */
+      .-booking-and-signin {
+        margin-top: 49px !important;
+        /* >>>> Invoice Detail <<<< */
+        .-left {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    &.-booking-confirmation {
+      margin: 31px auto 41px auto;
+      h1 {
+        font-size: 25px;
+      }
+      /* >>>> Booking Invoice and Sign In <<<< */
+      .-booking-and-signin {
+        margin-top: 20px !important;
+        .-left {
+          margin-bottom: 20px;
+        }
+        .-booking-invoice {
+          .-booking {
+            margin-bottom: 15px;
+            &:last-of-type {
+              margin-bottom: 0px;
+            }
+          }
+          /* >>>> Invoice Detail <<<< */
+          .-invoice-detail {
+            .-header {
+              padding: 16px;
+              .-text {
+                h4 {
+                  font-size: 25px;
+                  margin-bottom: 0px;
+                }
+                p {
+                  font-size: 16px;
+                  line-height: 20px;
+                  &:first-of-type {
+                    margin-bottom: 30px;
+                  }
+                  &.-reference {
+                    font-size: 16px;
+                  }
+                }
+              }
+            }
+            ul {
+              li {
+                padding: 12.5px 16px;
+                p {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+          /* >>>> Invoice Total <<<< */
+          .-invoice-payment {
+            padding: 16px;
+            h2,
+            p {
+              font-size: 20px;
+            }
+          }
+          /* >>>> Invoice Actions <<<< */
+          .-invoice-actions {
+            a {
+              &:first-of-type {
+                padding: 18px 12px;
+                margin-right: 5px;
+              }
+              &:last-of-type {
+                padding: 18px 12px;
+                margin-left: 5px;
+              }
+              font-size: 16px;
+              svg {
+                display: none;
+              }
+            }
+          }
+        }
+        /* >>>> Sign In/Up <<<< */
+        .-signin-signup {
+          .-account {
+            margin-bottom: 15px;
+            &:last-of-type {
+              margin-bottom: 0px;
+            }
+          }
+          /* >>>> Sign In <<<< */
+          .-signin {
+            .-header {
+              font-size: 18px;
+              padding: 16px 0px;
+            }
+            form {
+              padding: 18px 18px 31px 18px;
+              input {
+                margin-bottom: 16px;
+                font-size: 16px;
+                padding: 14px;
+              }
+              input[type="submit"] {
+                font-size: 16px;
+              }
+            }
+          }
+          /* >>>> Sign Up <<<< */
+          .-signup {
+            padding: 18px 18px 21px 18px;
+            p {
+              font-size: 16px;
+              letter-spacing: 0px;
+              padding: 0px 6px;
+              margin-bottom: 10px;
+            }
+            a {
+              margin-bottom: 0px;
+              font-size: 16px;
+              padding: 14px;
+            }
+            ul {
+              margin: 15px 0px 0px 0px;
+              padding: 0;
+              list-style: none;
+              li {
+                font-size: 16px;
+                letter-spacing: 0px;
+                line-height: 27px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>> End <<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<< */

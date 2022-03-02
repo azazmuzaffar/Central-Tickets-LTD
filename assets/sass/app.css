@@ -1,0 +1,456 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>> Central Tickets LTD <<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<< */
+body {
+  background: #f1f5f7 0% 0% no-repeat padding-box;
+}
+
+.navbar {
+  width: 100%;
+  height: 88px;
+  background: #353535 0% 0% no-repeat padding-box;
+}
+
+.navbar a {
+  margin: 0 auto;
+}
+
+.container.-booking-confirmation {
+  max-width: 1127px;
+  margin: 41px auto 51px auto;
+  /* >>>> Booking Invoice and Sign In <<<< */
+}
+
+.container.-booking-confirmation h1 {
+  font: normal normal bold 35px/40px Arial;
+  margin: 0;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.container.-booking-confirmation .-booking-and-signin {
+  padding: 0px 0px 0px 12px;
+  margin-top: 49px;
+  /* >>>> Sign In/Up <<<< */
+}
+
+.container.-booking-confirmation .-booking-and-signin .-left {
+  max-width: 651px;
+  margin-right: 18px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-right {
+  max-width: 422px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice {
+  /* >>>> Invoice Detail <<<< */
+  /* >>>> Invoice Total <<<< */
+  /* >>>> Invoice Actions <<<< */
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-booking {
+  margin-bottom: 30px;
+  background: white;
+  border-radius: 10px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-booking:last-of-type {
+  margin-bottom: 0px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail {
+  padding: 0;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 26px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header .-text {
+  position: relative;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header .-text h4,
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header .-text p {
+  margin: 0;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header .-text h4 {
+  font: normal normal bold 30px/34px Arial;
+  margin-bottom: 6px;
+  letter-spacing: 0px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header .-text p {
+  font: normal normal bold 20px/26px Arial;
+  letter-spacing: 0px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header .-text p:first-of-type {
+  margin-bottom: 38px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header .-text p span {
+  color: #666666;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header .-text p.-reference {
+  font: normal normal normal 20px/23px Arial;
+  color: #33333d;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header .-image {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 17.5px 26px;
+  border-top: 0.5px solid #d91717;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail ul li p {
+  font: normal normal bold 20px/23px Arial;
+  margin: 0;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail ul li p:last-of-type {
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 26px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-payment h2,
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-payment p {
+  letter-spacing: 0px;
+  margin: 0;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-payment h2 {
+  font: normal normal bold 30px/34px Arial;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-payment p {
+  font: normal normal normal 30px/34px Arial;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: transparent;
+  padding: 0;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-actions a {
+  border-radius: 10px;
+  margin: 0;
+  font: normal normal bold 20px/23px Arial;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: #000000;
+  width: 100%;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-actions a:first-of-type {
+  padding: 24px 12px;
+  margin-right: 30px;
+  background: white;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-actions a:last-of-type {
+  padding: 30px 12px;
+  background: #d91717;
+  color: white;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-actions a svg {
+  margin-right: 20px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup {
+  padding: 0px 12px;
+  /* >>>> Sign In <<<< */
+  /* >>>> Sign Up <<<< */
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-account {
+  margin-bottom: 30px;
+  background: white;
+  border-radius: 10px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-account:last-of-type {
+  margin-bottom: 0px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-signin {
+  padding: 0;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-signin .-header {
+  text-align: center;
+  background: #d91717;
+  font: normal normal normal 20px/23px Arial;
+  padding: 20px 0px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: white;
+  letter-spacing: 0px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-signin .-header svg {
+  margin-right: 18px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-signin form {
+  padding: 26px 26px 41px 26px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-signin form input {
+  margin-bottom: 20px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #707070;
+  font: normal normal normal 20px/23px Arial;
+  letter-spacing: 0px;
+  border-radius: 10px;
+  padding: 17px;
+  display: block;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-signin form input:last-of-type {
+  margin-bottom: 17px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-signin form input[type="submit"] {
+  font: normal normal bold 20px/23px Arial;
+  background: transparent;
+  border-color: #d91717;
+  color: #d91717;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-signin form p {
+  font: normal normal normal 13px/15px Arial;
+  margin: 0;
+  letter-spacing: 0px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-signin form p a {
+  color: #d91717;
+  text-decoration: underline;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-signup {
+  padding: 17px 26px 31px 26px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-signup p {
+  font: normal normal normal 20px/23px Arial;
+  letter-spacing: 0px;
+  padding: 0px 6px;
+  margin-bottom: 20px;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-signup a {
+  margin-bottom: 15px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #d91717;
+  color: #d91717;
+  text-align: center;
+  font: normal normal bold 20px/23px Arial;
+  text-decoration: none;
+  letter-spacing: 0px;
+  border-radius: 10px;
+  padding: 17px;
+  display: block;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-signup ul {
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+  list-style: none;
+}
+
+.container.-booking-confirmation .-booking-and-signin .-signin-signup .-signup ul li {
+  font: normal normal normal 20px/30px Arial;
+  letter-spacing: 0px;
+}
+
+@media only screen and (max-width: 1170px) {
+  .container.-booking-confirmation {
+    /* >>>> Booking Invoice and Sign In <<<< */
+  }
+  .container.-booking-confirmation .row {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .container.-booking-confirmation .row .col-xl-7,
+  .container.-booking-confirmation .row .col-xl-5 {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .container.-booking-confirmation .-booking-and-signin {
+    margin-top: 49px !important;
+    /* >>>> Invoice Detail <<<< */
+  }
+  .container.-booking-confirmation .-booking-and-signin .-left {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container.-booking-confirmation {
+    margin: 31px auto 41px auto;
+    /* >>>> Booking Invoice and Sign In <<<< */
+  }
+  .container.-booking-confirmation h1 {
+    font-size: 25px;
+  }
+  .container.-booking-confirmation .-booking-and-signin {
+    margin-top: 20px !important;
+    /* >>>> Sign In/Up <<<< */
+  }
+  .container.-booking-confirmation .-booking-and-signin .-left {
+    margin-bottom: 20px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice {
+    /* >>>> Invoice Detail <<<< */
+    /* >>>> Invoice Total <<<< */
+    /* >>>> Invoice Actions <<<< */
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-booking {
+    margin-bottom: 15px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-booking:last-of-type {
+    margin-bottom: 0px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header {
+    padding: 16px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header .-text h4 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header .-text p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header .-text p:first-of-type {
+    margin-bottom: 30px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail .-header .-text p.-reference {
+    font-size: 16px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail ul li {
+    padding: 12.5px 16px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-detail ul li p {
+    font-size: 16px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-payment {
+    padding: 16px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-payment h2,
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-payment p {
+    font-size: 20px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-actions a {
+    font-size: 16px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-actions a:first-of-type {
+    padding: 18px 12px;
+    margin-right: 5px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-actions a:last-of-type {
+    padding: 18px 12px;
+    margin-left: 5px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-booking-invoice .-invoice-actions a svg {
+    display: none;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-signin-signup {
+    /* >>>> Sign In <<<< */
+    /* >>>> Sign Up <<<< */
+  }
+  .container.-booking-confirmation .-booking-and-signin .-signin-signup .-account {
+    margin-bottom: 15px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-signin-signup .-account:last-of-type {
+    margin-bottom: 0px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-signin-signup .-signin .-header {
+    font-size: 18px;
+    padding: 16px 0px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-signin-signup .-signin form {
+    padding: 18px 18px 31px 18px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-signin-signup .-signin form input {
+    margin-bottom: 16px;
+    font-size: 16px;
+    padding: 14px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-signin-signup .-signin form input[type="submit"] {
+    font-size: 16px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-signin-signup .-signup {
+    padding: 18px 18px 21px 18px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-signin-signup .-signup p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    padding: 0px 6px;
+    margin-bottom: 10px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-signin-signup .-signup a {
+    margin-bottom: 0px;
+    font-size: 16px;
+    padding: 14px;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-signin-signup .-signup ul {
+    margin: 15px 0px 0px 0px;
+    padding: 0;
+    list-style: none;
+  }
+  .container.-booking-confirmation .-booking-and-signin .-signin-signup .-signup ul li {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 27px;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>> End <<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<< */
+/*# sourceMappingURL=app.css.map */
