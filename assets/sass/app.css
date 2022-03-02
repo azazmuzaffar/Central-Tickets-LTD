@@ -306,6 +306,79 @@ body {
   letter-spacing: 0px;
 }
 
+/* >>>> Footer <<<< */
+.footer {
+  background: #fff;
+  font-family: Arial;
+}
+
+.footer .container {
+  max-width: 1520px;
+  /* >>>> Footer Bottom <<<< */
+}
+
+.footer .container .row {
+  padding: 75px 16px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.footer .container .row .col-lg-5 ul,
+.footer .container .row .col-lg-4 ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer .container .row .col-lg-5 ul li,
+.footer .container .row .col-lg-4 ul li {
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.footer .container .row .col-lg-5 ul li:first-of-type,
+.footer .container .row .col-lg-4 ul li:first-of-type {
+  font-weight: bold;
+}
+
+.footer .container .row .col-lg-5 ul li:last-of-type,
+.footer .container .row .col-lg-4 ul li:last-of-type {
+  margin-bottom: 0px;
+}
+
+.footer .container .row .col-lg-5 ul li a,
+.footer .container .row .col-lg-4 ul li a {
+  text-decoration: none;
+  color: #d91717;
+  margin: 0;
+}
+
+.footer .container .row .col-lg-5 ul li a:hover,
+.footer .container .row .col-lg-4 ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer .container .footer-bottom {
+  text-align: center;
+  padding: 30px 0px 50px 0px;
+}
+
+.footer .container .footer-bottom h6 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer .container .footer-bottom ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer .container .footer-bottom ul a {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 1170px) {
   .container.-booking-confirmation {
     /* >>>> Booking Invoice and Sign In <<<< */
@@ -447,6 +520,28 @@ body {
     font-size: 16px;
     letter-spacing: 0px;
     line-height: 27px;
+  }
+  /* >>>> Footer <<<< */
+  .footer .container .row {
+    padding: 70px 16px;
+  }
+  .footer .container .row .col-lg-5,
+  .footer .container .row .col-lg-4 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer .container .row .col-lg-5 ul li,
+  .footer .container .row .col-lg-4 ul li {
+    font-size: 16px;
+  }
+  .footer .container .row .col-lg-4 {
+    margin-bottom: 50px;
+  }
+  .footer .container .row .col-lg-3 {
+    text-align: center;
+  }
+  .footer .container .row .col-lg-3 a img {
+    height: 50px;
   }
 }
 
