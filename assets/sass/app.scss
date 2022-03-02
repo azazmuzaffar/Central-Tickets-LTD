@@ -301,8 +301,22 @@ body {
         margin: 0;
         padding: 0;
         list-style: none;
+        width: fit-content;
+        margin: 0 auto;
         a {
           text-decoration: none;
+          display: block;
+          border: 1px solid #d91717;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          position: relative;
+          svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
         }
       }
     }
@@ -328,6 +342,22 @@ body {
         /* >>>> Invoice Detail <<<< */
         .-left {
           margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* >>>> Footer <<<< */
+  .footer {
+    .container {
+      .row {
+        .col-md-6 {
+          margin-bottom: 50px;
+        }
+        .col-md-12 {
+          text-align: center;
         }
       }
     }

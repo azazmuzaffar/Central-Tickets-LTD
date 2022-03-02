@@ -373,10 +373,28 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .footer .container .footer-bottom ul a {
   text-decoration: none;
+  display: block;
+  border: 1px solid #d91717;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.footer .container .footer-bottom ul a svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 @media only screen and (max-width: 1170px) {
@@ -399,6 +417,16 @@ body {
   }
   .container.-booking-confirmation .-booking-and-signin .-left {
     margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* >>>> Footer <<<< */
+  .footer .container .row .col-md-6 {
+    margin-bottom: 50px;
+  }
+  .footer .container .row .col-md-12 {
+    text-align: center;
   }
 }
 
