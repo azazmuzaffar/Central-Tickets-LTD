@@ -12,6 +12,9 @@ body {
   background: #353535 0% 0% no-repeat padding-box;
   a {
     margin: 0 auto;
+    img {
+      height: 37px;
+    }
   }
 }
 
@@ -285,6 +288,11 @@ body {
               margin: 0;
             }
           }
+        }
+      }
+      .col-lg-3 {
+        img {
+          height: 75px;
         }
       }
     }
